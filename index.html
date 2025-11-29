@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankit Songara - Portfolio</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <style>
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #333;
+      padding: 10px 20px;
+      position: sticky;
+      top: 0;
+      height: auto;
+      min-height: 80px;
+      z-index: 1000;
+    }
+
+    h1 {
+      color: #fff;
+      margin: 0;
+    }
+
+    .profile-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%; 
+      object-fit: cover; 
+      border: 2px solid #fff;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+
+    .project, .education-card, .cert-card {
+      background-color: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+    
+    /* Skills list styling */
+    .skills-category {
+        margin-bottom: 15px;
+    }
+    .skills-category strong {
+        font-size: 1.1em;
+    }
+   </style>
+</head>
+<body>
+  <header>
+    <h1>Ankit Songara</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="img.jpg" target="_blank">
+      <img src="img.jpg" alt="Ankit Songara" class="profile-img" />
+    </a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm Ankit Songara, a passionate Web Developer. I have expertise in Full Stack Development, C++, Python, and PHP. 
+      I designed and developed "Hostel Hunt", a full-stack web application to streamline accommodation management. 
+      My approach is centered on delivering high-quality results, problem-solving, and continuous learning.
+    </p>
+    <a href="Ankit.pdf" style="color: navy; font-weight: bold;">Download My Resume</a>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    
+    <div class="education-card">
+      <h3>Master of Computer Application (MCA)</h3>
+      <p><strong>School of Computers, IPS Academy, Indore</strong> | 2024-2026</p>
+      <p>CGPA: 7.60</p>
+    </div>
+
+    <div class="education-card">
+      <h3>Bachelor of Computer Applications (BCA)</h3>
+      <p><strong>Daksh Academy, Dhar</strong> | 2021-2024</p>
+      <p>CGPA: 7.92</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li class="skills-category">
+        <strong>Programming Languages:</strong>
+        <br> C, C++, Python, PHP
+      </li>
+
+      <li class="skills-category">
+        <strong>Web Technologies:</strong>
+        <br> HTML, CSS, JavaScript, Core PHP, Django
+      </li>
+
+      <li class="skills-category">
+        <strong>Databases:</strong>
+        <br> MySQL, SQLite
+      </li>
+
+      <li class="skills-category">
+        <strong>Libraries & Frameworks:</strong>
+        <br> Bootstrap
+      </li>
+
+      <li class="skills-category">
+        <strong>Tools & Platforms:</strong>
+        <br> Git, GitHub, Visual Studio Code
+      </li>
+      
+      <li class="skills-category">
+        <strong>Soft Skills:</strong>
+        <br> Problem Solving, Multitasking
+      </li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      
+      <li>
+        <div class="project">
+          <h3>Expense Web APP</h3>
+          <p><strong>Tech Stack:</strong> HTML, CSS, JS, PHP, MySQL</p>
+          <p>An online expenses tracker that helps users record, categorize, and analyze spending to manage budgets and improve financial control.</p>
+        </div>
+      </li>
+
+      <li>
+        <div class="project">
+          <h3>Hostel Hunt Web App</h3>
+          <p><strong>Tech Stack:</strong> HTML, CSS, JS, Python (Django), SQLite</p>
+          <p>Built a full-stack platform to help students search, book, and manage hostels or PG accommodations, streamlining the process.</p>
+        </div>
+      </li>
+
+      <li>
+        <div class="project">
+          <h3>Tour & Travel App</h3>
+          <p><strong>Tech Stack:</strong> HTML, CSS, JS, PHP (core), MySQL</p>
+          <p>Developed a system for users to plan, book, and organize trips effectively.</p>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications & Internships</h2>
+    <div class="cert-card">
+      <h3>Internship in Web Development</h3>
+      <p><strong>Vault of Codes</strong> | 1 Month</p>
+      <p>Successfully completed a Web Development Internship.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      <strong>Email:</strong> <a href="mailto:ankitsongara122@gmail.com">ankitsongara122@gmail.com</a>
+    </p>
+    <p>
+      <strong>Mobile No:</strong> <a href="tel:7724821877">+91 7724821877</a>
+    </p>
+    
+    <p>Links to social profiles:</p>
+    
+    <a href="https://linkedin.com/in/ankit-kushwah1" target="_blank" style="margin:10px; font-size:24px; color:#0077b5;">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    
+    <a href="https://instagram.com/ankit___kushwah" target="_blank" style="margin:10px; font-size:24px; color:#C13584;">
+      <i class="fab fa-instagram"></i>
+    </a>
+    
+    <a href="https://wa.me/917724821877" target="_blank" style="margin:10px; font-size:24px; color:#25D366;">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <a href="https://github.com/ankitkush054" target="_blank" rel="noopener noreferrer" style="margin:10px; font-size:24px; color:black;">
+      <i class="fab fa-github"></i>
+    </a>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ankit Songara</p>
+  </footer>
+</body>
+</html>
